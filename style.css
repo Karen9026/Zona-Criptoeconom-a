@@ -1,0 +1,63 @@
+/*Selector universal*/
+*{
+/*color del fondo*/
+    background-color:rgb(192, 158, 224);  
+
+    /*color del texto*/
+color:rgb(92, 29, 92)
+
+}
+h1{ color:rgb(124, 30, 124); 
+}
+
+
+/*selector de clase*/
+
+.serif{
+    /*tipografía*/
+    font-family: sans-serif;
+    /*tamaño*/
+
+    font-size: 50x;
+
+    /*peso*/
+    font-weight: 900x;
+
+    /*alineación*/
+    text-align: center;
+
+
+}
+/*de ID*/
+    #morado{
+        color: black; 
+    }
+
+    #link{
+        text-align:center;
+        font-style: oblique;
+    }
+    /*media queries*/
+
+    @media only screen and (max-width: 600px)  {
+        body{
+            background-color: gray; 
+    }
+    p{
+        color: blue;
+    }
+    }
+
+    video {
+        /*ancho*/
+        width: 400px; 
+        /*altura*/
+        border: black;
+
+    }
+    img{
+        width: 300px;
+        height: 250px;
+        border: black;
+        
+    }
